@@ -1,24 +1,45 @@
-{
-    "name": "qna-bot-v-4",
+"name": "qna-bot-v-4",
+
     "services": [
+
         {
+
             "type": "endpoint",
+
             "name": "development",
+
             "endpoint": "http://localhost:3978/api/messages",
+
             "appId": "",
+
             "appPassword": "",
+
             "id": "1"
+
         },
+
         {
+
             "type": "qna",
-            "name": "my-test-kb",
-            "kbId": "",
-            "hostname": "",
-            "endpointKey": "",
-            "subscriptionKey": "",
+
+            "name": "mohith",
+
+            "kbId": "b84e2ee-9d51-40bb-90bf-2b50cbe720db",
+
+            "hostname": "https://qnq-aff1-bot-ac10.azurewebsites.net/api/messages",
+
+            "endpointKey": "f7f516c1-7720-4802-9e6f-b01327d7a12a",
+
+            "subscriptionKey": "1af186e9-acfa-42aa-bdbd-a646ecd4a75b",
+
             "id": "123"
+
         }  
+
     ],
+
     "padlock": "",
+
     "version": "2.0"
+
 }
