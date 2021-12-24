@@ -9,7 +9,7 @@ In this workshop, you will learn how :
   
 ## Pre-requisites
 
-* Azure Pass or subscription - [Azure for students](https://azure.microsoft.com/en-gb/)
+* Azure Pass or subscription - [Try it for Free](https://azure.microsoft.com/en-gb/)
 
 ## Case description
 
