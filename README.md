@@ -31,8 +31,6 @@ A client application for QnA Maker is any conversational application that commun
 
 1. Select **Create a knowledge base** from the top menu.
 
-    ![Screenshot of QnA Maker portal](media/create-kb-step-1.png)
-
 1. Select Create a QnA service. You will be redirect on Azure Portal. 
 
 1. Provide the required information:
@@ -57,8 +55,6 @@ A client application for QnA Maker is any conversational application that commun
 
 **Application Insights Location:** Select Canada Central
 
-   ![Screenshot of QnA Maker portal](media/create-qna-service.PNG)
-
 1. Click Create to deploy the service. This step might take a few moments.
 
 1. Once the deployment is complete, return to QnA Maker portal and click Refresh on step 2.
@@ -71,11 +67,7 @@ A client application for QnA Maker is any conversational application that commun
     |Azure Subscription name|The billing account in which you created the QnA Maker resource.|
     |Azure QnA Service|Your existing QnA Maker resource.|
 
-    ![Screenshot of QnA Maker portal](media/create-kb-step-2.png)
-
 1. Enter your knowledge base name, `AI Bootcamp kb`.
-
-    ![Screenshot of QnA Maker portal](media/create-kb-step-3.png)
 
 1. Populate your knowledge base with the following settings:  
 
@@ -85,17 +77,11 @@ A client application for QnA Maker is any conversational application that commun
     |File |_not used in this tutorial_|This uploads files for questions and answers. |
     |Chit-chat personality|None|This gives a friendly and casual [personality](Concepts/best-practices.md#chit-chat) to common questions and answers. You can edit these questions and answers later. |
 
-    ![Screenshot of QnA Maker portal](media/create-kb-step-4.png)
-
 1. Select **Create your KB** to finish the creation process.
-
-    ![Screenshot of QnA Maker portal](media/create-kb-step-5.png)
 
 ### Review, save, and train the knowledge base
 
 1. Review the questions and answers.
-
-    ![Screenshot of QnA Maker portal](media/save-and-train-kb.png)
 
 1. Select **Test** in the top menu bar.
 
@@ -103,27 +89,19 @@ A client application for QnA Maker is any conversational application that commun
 
 1. Select Inspect. You can add alternative phrasing for this Answer or new answer for this question, if you think the answer is wrong.
 
- ![Screenshot of Test](media/test-kb.PNG)
-
 1. Select **Save and train** in the top menu bar.
 
 ### Publish to get knowledge base endpoints
 
 Select the **Publish** button from the top menu. On the publish page, select **Publish**.
 
-![Screenshot of QnA Maker portal](media/publish-1.png)
-
 After the knowledge base is published, the endpoint is displayed.
-
-![Screenshot of endpoint settings](media/publish-2.png)
 
 Don't close this **Publish** page. You need it later in the tutorial, to create a bot. 
 
 ### Use cURL to query for an FAQ answer
 
 1. Select the **Curl** tab. 
-
-![Screenshot of Curl tab](media/publish-3-curl.png)
 
 1. Copy the text of the **Curl** tab, and run it in a cURL-enabled terminal or command-line. The authorization header's value includes the text `Endpoint`, with a trailing space and then the key.
 
