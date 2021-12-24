@@ -1,3 +1,6 @@
+# Testing Demo Link
+https://teams.microsoft.com/l/chat/0/0?users=28:c080a785-f332-46d1-88f9-10e7f25f883c
+
 # Build chatbot with QnA Maker and Azure Bot Service
 
 In this workshop, you will learn how :
