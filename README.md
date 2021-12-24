@@ -251,8 +251,6 @@ For the user query of `When is your birthday?`, each personality has a styled re
 
 1. From the toolbar above the list of questions and answers, select the View options icon, and then select Show metadata. This shows the metadata tags for each question and answer. The Chit-chat questions have the editorial: chit-chat metadata already set. This metadata is returned to the client application, along with the selected answer. The client application, such as a chat bot, can use this filtered metadata to determine additional processing or interactions with the user.
 
-  ![Screenshot of QnA Maker portal](media/save-and-train-kb-chit-chat.png)
-
 1. Select the **Publish** button from the top menu. On the publish page, select **Publish**.
 
 #### Use cURL to query for a Chit-chat answer
@@ -298,8 +296,6 @@ For the user query of `When is your birthday?`, each personality has a styled re
 #### Chat with the bot
 
 Go back in **Test in Web Chat** on Azure Portal and chat with your bot.
-
-![Screenshot of test in portal](media/test-in-web-chat.PNG)
 
 ## Clean up resources
 Finally, If you don't expect to need these resources in the future, you can delete them by deleting the resource group. To do so, select the resource group for this workshop, select Delete, then confirm the name of the resource group to delete.
