@@ -241,8 +241,6 @@ For the user query of `When is your birthday?`, each personality has a styled re
 
 1. On **File name** sub section, click on **Add file** and add qna_chitchat_friendly.tsv file.
 
- ![Screenshot of add chit-chat](media/add-chit-chat-kb.PNG)
-
 1. Click **Save and Train** from top menu.
 
 1. Click on **Edit** for review the questions and answers.
