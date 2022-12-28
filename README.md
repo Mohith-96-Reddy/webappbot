@@ -170,7 +170,7 @@ Create a bot as a client application for the knowledge base.
 
 1. In the QnA Maker portal, go to the **Publish** page, and publish your knowledge base. Select **Create Bot**. 
 
-    ![In the QnA Maker portal, go to the Publish page, and publish your knowledge base. Select Create Bot.](/media/create-bot-from-qna-portal.PNG)
+    ![In the QnA Maker portal, go to the Publish page, and publish your knowledge base. Select Create Bot.]
 
     The Azure portal opens with the bot creation configuration.
 
@@ -191,7 +191,7 @@ Create a bot as a client application for the knowledge base.
     |Application Insights|**Do not change**|Logging is sent to Application Insights.|
     |Microsoft App ID|**Do not change**|Active directory user and password is required.|
 
-    ![Create the knowledge base bot with these settings.](/media/create-bot-from-azure-portal.PNG)
+    ![Create the knowledge base bot with these settings.]
 
     Wait a couple of minutes until the bot creation process notification reports success.
 
@@ -201,7 +201,7 @@ Create a bot as a client application for the knowledge base.
 
 1. In the Azure portal, open the new bot resource from the notification. 
 
-    ![In the Azure portal, open the new bot resource from the notification.](/media/azure-portal-notifications.png)
+    ![In the Azure portal, open the new bot resource from the notification.]
 
 1. From **Bot management**, select **Test in Web Chat** and enter: `How large can my KB be?`. The bot will respond with: 
 
@@ -209,7 +209,7 @@ Create a bot as a client application for the knowledge base.
     `The size of the knowledge base depends on the SKU of Azure search you choose when creating the QnA Maker service. Read [here](https://docs.microsoft.com/azure/cognitive-services/qnamaker/tutorials/choosing-capacity-qnamaker-deployment)for more details.`
 
 
-    ![Test the new knowledge base bot.](/media/test-azure-portal.PNG)
+    ![Test the new knowledge base bot.]
 
     For more information about Azure Bots, see [Use QnA Maker to answer questions](https://docs.microsoft.com/azure/bot-service/bot-builder-howto-qna?view=azure-bot-service-4.0&tabs=cs)
 
